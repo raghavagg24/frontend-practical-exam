@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Product Catalogue</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>Product Catalogue</h2>
+
+        <div class="filters">
+            <input type="text" id="search" placeholder="Search by name...">
+
+            <select id="category">
+                <option value="All">All categories</option>
+                <option value="Electronics">Electronics</option>
+                <option value="Stationery">Stationery</option>
+                <option value="Fashion">Fashion</option>
+            </select>
+        </div>
+
+        <p id="count"></p>
+
+        <div id="productList" class="grid"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
